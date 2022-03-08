@@ -1,0 +1,523 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    width: 1280px;
+    height: auto;
+    margin: auto;
+}
+
+.blok
+{
+    height: 740px;
+    background: linear-gradient(to bottom, rgba(43, 42, 42, 0.568), rgba(0, 0, 0, 0.404)), url(../../img/png/bg-1.png);
+}
+
+.navbar
+{
+    height: 70px;
+    padding-top: 20px;
+}
+
+.navbar ul
+{
+    list-style: none;
+    display: flex;
+    margin-left: 360px;
+}
+
+.navbar ul li
+{
+    margin-left: 55px;
+}
+
+.navbar ul li a
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: beige;
+    line-height: 70px;
+    text-decoration: none;
+    transition-duration: .2s;
+}
+
+.navbar ul li a:hover
+{
+    color: #16A085;
+}
+
+.navbar ul li a:focus
+{
+    color: #16A085;
+}
+
+.cont
+{
+    margin-top: 240px;
+    text-align: center;
+}
+
+.cont h1
+{
+    color: #FBFBFB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+.cont p
+{
+    color: #FBFBFB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.cont a
+{
+    display: block;
+    width: 165px;
+    height: 50px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin: auto;
+    background-color: #16A085;
+    color: #FBFBFB;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+.cont a:hover
+{
+    background-color: #157763;
+}
+
+.blok2
+{
+    height: 490px;
+    background-color: #F5F6F7;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.blok2 h1
+{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    color: #16A085;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+}
+
+.blok2 p
+{
+    color: gray;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.blok2 a
+{
+    display: block;
+    width: 165px;
+    height: 50px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: #16A085;
+    color: #FBFBFB;
+    text-decoration: none;
+    transition-duration: .3s;
+    position: relative;
+}
+
+.blok2 a:hover
+{
+    background-color: #157763;
+}
+
+.qism1
+{
+    width: 50%;
+}
+
+.qism2
+{
+    width: 50%;
+}
+
+.img3
+{
+    height: 700px;
+    position: relative;
+    top: -453px;
+    left: 180px;
+}
+
+.img4
+{
+    height: 760px;
+    object-fit: cover;
+    position: relative;
+    top: -180px;
+    left: -140px;
+}
+
+.blok3
+{
+    height: 490px;
+    background-color: white;
+    padding-top: 100px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.blok3 h1
+{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    color: #16A085;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+}
+
+.blok3 p
+{
+    color: gray;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.blok3 a
+{
+    display: block;
+    width: 165px;
+    height: 50px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: #16A085;
+    color: #FBFBFB;
+    text-decoration: none;
+    transition-duration: .3s;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.blok3 a:hover
+{
+    background-color: #157763;
+}
+
+.qism1
+{
+    width: 50%;
+}
+
+.qism2
+{
+    width: 50%;
+}
+
+
+.blok4
+{
+    height: 480px;
+    background-color: #F5F6F7;
+    display: flex;
+}
+
+.qism2 h2
+{
+    margin-left: 100px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card
+{
+    width: 33.333%;
+    height: 100%;
+}
+
+.card:nth-child(1)
+{
+    width: 30%;
+}
+
+pre
+{
+    text-align: right;
+    margin-right: 10px;
+    position: relative;
+    top: 86px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.img5
+{
+    margin-top: 110px;
+    display: block;
+    width: 420px;
+    /* margin-left: 30px;
+    margin-bottom: 40px; */
+}
+
+.img5:nth-child(2)
+{
+    margin-top: 95px;
+    display: block;
+    width: 420px;
+    /* margin-left: 30px;
+    margin-bottom: 40px; */
+}
+
+.logo2
+{
+    display: block;
+    margin: auto;
+    margin-top: 160px;
+}
+
+.card h2
+{
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.card p
+{
+    text-align: center;
+    width: 160px;
+    margin-left: 110px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blok5
+{
+    height: 790px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.219),  rgba(0, 0, 0, 0.219)),  url(../../img/png/2_5213202360100197245.png) ;
+}
+
+.blok5 h2 pre
+{
+    position: relative;
+    top: 350px;
+    text-align: center;
+    color: beige;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.inpt
+{
+    position: relative;
+    top: 353px;
+    margin-left: 460px;
+}
+
+input[type="email"]
+{
+    width: 280px;
+    height: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    transition-duration: .3s;
+}
+
+input[type="email"]:hover
+{
+    box-shadow: 0 0 20px #16a084a4;
+}
+
+input[type="email"]:focus
+{
+    box-shadow: 0 0 20px #16a084a4;
+}
+
+button
+{
+    width: 60px;
+    height: 60px;
+    background-color: #16A085;
+    border: none;
+    outline: none;
+    margin-left: -5px;
+    color: beige;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    transition-duration: .2s;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color: #298170;
+}
+
+.blok6
+{
+    height: 390px;
+    background-color: #F5F6F7;
+}
+
+.blok6 h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 60px;
+    color: #373737;
+}
+
+.blok6 p
+{
+    width: 844px;
+    position: relative;
+    top: 80px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: #373737;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app
+{
+    display: flex;
+    margin-left: 420px;
+}
+
+.icon2
+{
+    width: 200px;
+    position: relative;
+    top: 140px;
+    margin-left: 10px;
+}
+
+.icon2:nth-child(1)
+{
+    height: 71px;
+}
+
+.footer
+{
+    height: 130px;
+    display: flex;
+}
+
+.fot1
+{
+    width: 640px;
+}
+
+.fot2
+{
+    width: 640px;
+}
+
+.nav2 ul
+{
+    display: flex;
+    list-style: none;
+    margin-top: 45px;
+    margin-left: 125px;
+}
+
+.nav2 ul li
+{
+    margin-left: 10px;
+}
+
+.nav2 h3
+{
+    font-size: 18px;
+    position: relative;
+    left: 5px;
+    top: 2px;
+    color: #157763;
+    font-weight: 500;
+}
+
+.fot1 p
+{
+    margin-left: 135px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.nav2 ul li a
+{
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    transition-duration: .3s;
+}
+
+.nav2 ul li a:hover
+{
+    color: #157763;
+}
+
+.log2
+{
+    position: relative;
+    left: 470px;
+    top: 40px;
+}
